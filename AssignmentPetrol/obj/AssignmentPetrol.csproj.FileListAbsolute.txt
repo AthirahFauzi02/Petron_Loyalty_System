@@ -1,0 +1,16 @@
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.Buy_Item.resources
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.Main_Menu.resources
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.Properties.Resources.resources
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.Redeem_Point.resources
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.Register.resources
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.csproj.GenerateResource.Cache
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\bin\Debug\AssignmentPetrol.exe
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\bin\Debug\AssignmentPetrol.pdb
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.exe
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.pdb
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.Transaction_Receipt.resources
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.Customer_Report.resources
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.view_all_Report.resources
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.Redeemption_Report.resources
+C:\Users\Athirah\Desktop\Assignment\1 HND LIFE\H3\OOP\AssignmentPetrol\AssignmentPetrol\obj\Debug\AssignmentPetrol.Transaction_Report.resources

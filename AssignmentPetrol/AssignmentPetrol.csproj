@@ -1,0 +1,160 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CEBE8990-608B-47BE-AD50-7D6B7AA60BE8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AssignmentPetrol</RootNamespace>
+    <AssemblyName>AssignmentPetrol</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buy Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buy Item.Designer.cs">
+      <DependentUpon>Buy Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer Report.Designer.cs">
+      <DependentUpon>Customer Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs" />
+    <Compile Include="Main Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Menu.Designer.cs">
+      <DependentUpon>Main Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Buy Item.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Buy Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer Report.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Customer Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Menu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Redeem Point.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Redeem Point.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Redeemption Report.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Redeemption Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction Receipt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Transaction Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction Report.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Transaction Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view all Report.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>view all Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Redeem Point.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Redeem Point.Designer.cs">
+      <DependentUpon>Redeem Point.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Redeemption Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Redeemption Report.Designer.cs">
+      <DependentUpon>Redeemption Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction Receipt.Designer.cs">
+      <DependentUpon>Transaction Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction Report.Designer.cs">
+      <DependentUpon>Transaction Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction.cs" />
+    <Compile Include="view all Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view all Report.Designer.cs">
+      <DependentUpon>view all Report.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

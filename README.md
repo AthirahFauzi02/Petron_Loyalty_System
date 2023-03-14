@@ -1,7 +1,7 @@
 # Petron_Loyalty_System
 Project Name: **Petron Loyalty System**
 
-The System was Created from **August until September 2018**
+This system was created from **August until September 2018**
 
 Description : **A simple loyalty system with simple graphic user interface. The system allow users to register new customer, purchase product and redeem point. This system is created for Object Oriented Programming subject during semester 3 of Higher National Diploma.**
 
